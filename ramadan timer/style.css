@@ -1,0 +1,61 @@
+ body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('./images/backgroundimg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+ 
+.countdown-container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+    padding: 80px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    background: url(https://i.pinimg.com/736x/68/f0/89/68f0899f28c7c624005fc4cd4ac51cb8.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}  
+
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    gap: 20px; }
+.time-segment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.time-segment span {
+    font-size: 2rem;
+    font-weight: bold;
+} 
+
+@media (max-width: 600px) {
+    #countdown {
+    flex-direction: column;
+        gap: 10px;  } 
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
